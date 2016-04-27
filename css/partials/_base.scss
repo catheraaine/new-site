@@ -1,4 +1,15 @@
 // GLOBAL STYLES
 body {
   font-family: $primary-font;
+  background: url(../assets/images/arcade-bw.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: $darkest;
+}
+
+h1, h2 {
+  font-family: $secondary-font;
+  color: $lightest;
 }

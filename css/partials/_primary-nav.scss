@@ -1,0 +1,43 @@
+nav-container {
+  position: relative;
+}
+
+nav {
+  background-color: $lightest;
+  // border-left: 2px solid $dark;
+  width: 18em;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.nav ul {
+  max-width: 10em;
+  width: 80%;
+  margin: 6em auto;
+  font-size: 1.5em;
+}
+
+.nav li {
+  margin: .25em;
+  padding: .25em;
+  width: 100%;
+  border-left: 4px solid #D75F74;
+}
+
+.nav a:link, .nav a:visited {
+  color: #000;
+  text-transform: uppercase;
+
+  padding: .25em .5em;
+    transition: background-color .25s ease;
+    -webkit-transition: background-color .25s ease;
+    -moz-transition: background-color .25s ease;
+    -o-transition: background-color .25s ease;
+
+}
+
+.nav li:hover {
+  background-color: #EAB98C;
+}
