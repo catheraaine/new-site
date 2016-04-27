@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "ASAP";
+  src: url(../assets/fonts/Asap-Regular.ttf); }
+@font-face {
+  font-family: "Racing Sans One";
+  src: url(../assets/fonts/RacingSansOne-Regular.ttf); }
+body {
+  font-family: "ASAP", "Helvetica", "Ariel", sans-serif; }
+
+/*# sourceMappingURL=global.css.map */

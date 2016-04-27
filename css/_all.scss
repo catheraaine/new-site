@@ -1,12 +1,14 @@
 // Modules and Variables
-@import "partials/base";
+@import "partials/variables";
+@import "partials/mixins";
 
 // Partials
+@import "partials/base";
 @import "partials/reset";
 @import "partials/typography";
 @import "partials/buttons";
 @import "partials/header";
-@import "partials/primary-nav.scss";
+@import "partials/primary-nav";
 
 
 // Third-party

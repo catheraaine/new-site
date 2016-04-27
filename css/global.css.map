@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAGC;EAFC,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,qCAAqC;AAG5C,UAGC;EAFC,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAE,8CAA8C;ACNrD,IAAK;EACH,WAAW,ECaE,wCAAwC",
+"sources": ["partials/_mixins.scss","partials/_base.scss","partials/_variables.scss"],
+"names": [],
+"file": "global.css"
+}
