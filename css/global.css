@@ -4,16 +4,15 @@
 @font-face {
   font-family: "Racing Sans One";
   src: url(../assets/fonts/RacingSansOne-Regular.ttf); }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, input, p, blockquote, table, th, td, embed, object {
+  padding: 0;
+  margin: 0; }
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
+  list-style-type: none; }
 
-li {
-  margin: 0;
-  padding: 0; }
-
-a:link {
+a {
   text-decoration: none; }
 
 body {
@@ -32,39 +31,37 @@ h1, h2 {
 .headline {
   font-size: 3em; }
 
-nav-container {
+.nav-container {
   position: relative; }
 
-nav {
+.nav {
+  vertical-align: middle;
   background-color: #fff;
   width: 18em;
   position: fixed;
   right: 0;
   top: 0;
-  height: 100%; }
-
-.nav ul {
-  max-width: 10em;
-  width: 80%;
-  margin: 6em auto;
-  font-size: 1.5em; }
-
-.nav li {
-  margin: .25em;
-  padding: .25em;
-  width: 100%;
-  border-left: 4px solid #D75F74; }
-
-.nav a:link, .nav a:visited {
-  color: #000;
-  text-transform: uppercase;
-  padding: .25em .5em;
-  transition: background-color .25s ease;
-  -webkit-transition: background-color .25s ease;
-  -moz-transition: background-color .25s ease;
-  -o-transition: background-color .25s ease; }
-
-.nav li:hover {
-  background-color: #EAB98C; }
+  height: 100%;
+  padding: 0; }
+  .nav a:link, .nav a:visited {
+    color: #000;
+    text-transform: uppercase;
+    padding: .25em .5em;
+    transition: all .3s fade;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    opacity: 0.7; }
+  .nav a:hover {
+    border-top: 3px solid #0093A0;
+    border-bottom: 3px solid #0093A0;
+    opacity: 1; }
+  .nav ul {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 6em; }
+  .nav li {
+    margin: .5em;
+    padding: .25em; }
 
 /*# sourceMappingURL=global.css.map */
