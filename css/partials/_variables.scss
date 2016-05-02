@@ -1,7 +1,6 @@
 // VARIABLES
 
 // Colors
-
 $primary: #0093A0;
 $accent: #D75F74;
 $highlight: #EAB98C;
@@ -12,8 +11,13 @@ $light: #DDD;
 $lightest: #fff;
 
 // Fonts
-
 $primary-font: "ASAP", "Helvetica", "Ariel", sans-serif;
 $secondary-font: "Racing Sans One", "Georgia", "Times New Roman", serif;
 
-// Other
+// Breakpoints
+$break-small: 52.75em;
+$break-large: 75.44em;
+$break-max: 100em;
+
+// Sizing
+$nav-width: 18em;

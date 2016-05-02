@@ -31,18 +31,40 @@ h1, h2 {
 .headline {
   font-size: 3em; }
 
+.quote {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  padding: 2.5em;
+  color: #fff;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 25%; }
+  @media screen and (min-width: 52.75em) {
+    .quote {
+      width: 40%;
+      left: calc(30% - (18em/2)); } }
+  .quote small {
+    right: 4em;
+    position: absolute; }
+    @media screen and (min-width: 75.44em) {
+      .quote small {
+        font-size: 1em; } }
+  @media screen and (min-width: 52.75em) {
+    .quote blockquote {
+      font-size: 1.5em; } }
+  @media screen and (min-width: 75.44em) {
+    .quote blockquote {
+      font-size: 2em; } }
+
 .nav-container {
   position: relative; }
 
 .nav {
-  vertical-align: middle;
-  background-color: #fff;
-  width: 18em;
-  position: fixed;
-  right: 0;
-  top: 0;
-  height: 100%;
-  padding: 0; }
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: auto;
+  text-align: center; }
   .nav a:link, .nav a:visited {
     color: #000;
     text-transform: uppercase;
@@ -56,12 +78,26 @@ h1, h2 {
     border-top: 3px solid #0093A0;
     border-bottom: 3px solid #0093A0;
     opacity: 1; }
-  .nav ul {
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 6em; }
   .nav li {
-    margin: .5em;
-    padding: .25em; }
+    margin: 1em auto;
+    padding: .25em;
+    display: inline-block;
+    font-size: 1.5em; }
+  @media screen and (min-width: 52.75em) {
+    .nav {
+      width: 18em;
+      position: fixed;
+      right: 0;
+      top: 0;
+      height: 100%;
+      padding: 0; }
+      .nav ul {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 30%; }
+      .nav li {
+        margin: .5em;
+        display: block; } }
 
 /*# sourceMappingURL=global.css.map */
