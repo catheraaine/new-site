@@ -1,9 +1,10 @@
 .headline {
   font-size: 3em;
+  visibility: hidden;
 }
 
 .quote {
-  background-color: rgba(0, 0, 0, .5);
+  background-color: $black-transparent;
   box-sizing: border-box;
   padding: 2.5em;
   color: $lightest;

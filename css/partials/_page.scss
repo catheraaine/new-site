@@ -1,0 +1,81 @@
+.container {
+  max-width: 80%;
+  box-sizing: border-box;
+  margin: 0 auto;
+
+  @media screen and (min-width: $break-small){
+    width: calc(100% - #{$nav-width});
+    margin: 0;
+
+  }
+
+}
+
+.sub-container {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.5em;
+
+  h4, h5 {
+    font-size: 1.5em;
+    margin: 2em 0 .5em 0;
+  }
+
+  p {
+    margin-bottom: .5em;
+  }
+
+
+}
+
+
+#contact {
+  background-image: url(../assets/images/cat-mail.jpg);
+
+}
+
+.contact-container {
+  background-color: $black-transparent;
+  color: $lightest;
+  text-align: center;
+  padding: 2em;
+  margin: 0 auto;
+  h4 {
+  }
+
+  ul {
+    margin: 2em;
+
+    li {
+      display: inline-block;
+      margin: 1em;
+
+    }
+  }
+
+
+
+}
+
+.social-icon {
+  height: 2.5em;
+
+  #facebook-icon, #twitter-icon {
+    fill: $lightest;
+
+  }
+
+  &:hover {
+    #facebook-icon, #linkedin-icon {
+      fill: $accent;
+    }
+    #twitter-icon {
+      fill: $primary;
+    }
+
+    #github-icon {
+      fill: $highlight;
+    }
+
+  }
+}

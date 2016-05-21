@@ -17,19 +17,47 @@ a {
 
 body {
   font-family: "ASAP", "Helvetica", "Ariel", sans-serif;
-  background: url(../assets/images/arcade-bw.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   color: #000; }
 
 h1, h2 {
   font-family: "Racing Sans One", "Georgia", "Times New Roman", serif;
   color: #fff; }
 
+.content {
+  min-width: 100%;
+  min-height: 100%; }
+
+#header {
+  background: url(../assets/images/arcade-bw.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#about, #work, #contact {
+  background-color: #fff; }
+
+.portrait {
+  width: 18em;
+  box-sizing: border-box;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border: 5px solid #0093A0;
+  display: block;
+  margin: .5em auto; }
+
+p a:link, p a:visited {
+  color: #0093A0;
+  border-bottom: 1px solid #0093A0; }
+p a:hover, p a:active {
+  color: #D75F74;
+  border-bottom: 1px solid #D75F74;
+  font-style: italic; }
+
 .headline {
-  font-size: 3em; }
+  font-size: 3em;
+  visibility: hidden; }
 
 .quote {
   background-color: rgba(0, 0, 0, 0.5);
@@ -64,7 +92,8 @@ h1, h2 {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.85);
   margin: auto;
-  text-align: center; }
+  text-align: center;
+  background-color: rgba(0, 147, 160, 0.2); }
   .nav a:link, .nav a:visited {
     color: #000;
     text-transform: uppercase;
@@ -82,7 +111,8 @@ h1, h2 {
     margin: 1em auto;
     padding: .25em;
     display: inline-block;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    color: black; }
   @media screen and (min-width: 52.75em) {
     .nav {
       width: 18em;
@@ -99,5 +129,50 @@ h1, h2 {
       .nav li {
         margin: .5em;
         display: block; } }
+
+.container {
+  max-width: 80%;
+  box-sizing: border-box;
+  margin: 0 auto; }
+  @media screen and (min-width: 52.75em) {
+    .container {
+      width: calc(100% - 18em);
+      margin: 0; } }
+
+.sub-container {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.5em; }
+  .sub-container h4, .sub-container h5 {
+    font-size: 1.5em;
+    margin: 2em 0 .5em 0; }
+  .sub-container p {
+    margin-bottom: .5em; }
+
+#contact {
+  background-image: url(../assets/images/cat-mail.jpg); }
+
+.contact-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 2em;
+  margin: 0 auto; }
+  .contact-container ul {
+    margin: 2em; }
+    .contact-container ul li {
+      display: inline-block;
+      margin: 1em; }
+
+.social-icon {
+  height: 2.5em; }
+  .social-icon #facebook-icon, .social-icon #twitter-icon {
+    fill: #fff; }
+  .social-icon:hover #facebook-icon, .social-icon:hover #linkedin-icon {
+    fill: #D75F74; }
+  .social-icon:hover #twitter-icon {
+    fill: #0093A0; }
+  .social-icon:hover #github-icon {
+    fill: #EAB98C; }
 
 /*# sourceMappingURL=global.css.map */
