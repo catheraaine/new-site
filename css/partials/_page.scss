@@ -28,18 +28,13 @@
 
 }
 
-
-#contact {
-  background-image: url(../assets/images/cat-mail.jpg);
-
-}
-
 .contact-container {
   background-color: $black-transparent;
   color: $lightest;
   text-align: center;
   padding: 2em;
   margin: 0 auto;
+  min-height: 40%;
   h4 {
   }
 
@@ -58,9 +53,9 @@
 }
 
 .social-icon {
-  height: 2.5em;
+  height: 3em;
 
-  #facebook-icon, #twitter-icon {
+  #facebook-icon, #twitter-icon, #linkedin-icon, #github-icon  {
     fill: $lightest;
 
   }

@@ -26,6 +26,17 @@ h1, h2 {
   background-color: $lightest;
 }
 
+
+#contact {
+  min-height: 100%;
+  padding-top: 5em;
+  background: url(../assets/images/cat-mail.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .portrait {
   width: 18em;
   box-sizing: border-box;

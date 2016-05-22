@@ -37,6 +37,15 @@ h1, h2 {
 #about, #work, #contact {
   background-color: #fff; }
 
+#contact {
+  min-height: 100%;
+  padding-top: 5em;
+  background: url(../assets/images/cat-mail.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .portrait {
   width: 18em;
   box-sizing: border-box;
@@ -149,15 +158,13 @@ p a:hover, p a:active {
   .sub-container p {
     margin-bottom: .5em; }
 
-#contact {
-  background-image: url(../assets/images/cat-mail.jpg); }
-
 .contact-container {
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   text-align: center;
   padding: 2em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  min-height: 40%; }
   .contact-container ul {
     margin: 2em; }
     .contact-container ul li {
@@ -165,8 +172,8 @@ p a:hover, p a:active {
       margin: 1em; }
 
 .social-icon {
-  height: 2.5em; }
-  .social-icon #facebook-icon, .social-icon #twitter-icon {
+  height: 3em; }
+  .social-icon #facebook-icon, .social-icon #twitter-icon, .social-icon #linkedin-icon, .social-icon #github-icon {
     fill: #fff; }
   .social-icon:hover #facebook-icon, .social-icon:hover #linkedin-icon {
     fill: #D75F74; }
