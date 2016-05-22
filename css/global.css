@@ -171,6 +171,26 @@ p a:hover, p a:active {
       display: inline-block;
       margin: 1em; }
 
+.resume-container {
+  font-size: .8em;
+  padding-top: 3em;
+  display: flex;
+  margin-bottom: 5em;
+  .resume-left-max-width: 30%; }
+  .resume-container .resume-right {
+    max-width: calc(70% - 3em); }
+  .resume-container h3 {
+    font-size: 1.5em;
+    margin: 1em auto .5em auto;
+    color: #0093A0; }
+  .resume-container h5 {
+    font-size: 1.2em;
+    margin: .5em 0;
+    border-bottom: 1px solid #EAB98C;
+    max-width: 90%; }
+  .resume-container .italic {
+    font-style: italic; }
+
 .social-icon {
   height: 3em; }
   .social-icon #facebook-icon, .social-icon #twitter-icon, .social-icon #linkedin-icon, .social-icon #github-icon {
